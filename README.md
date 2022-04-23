@@ -70,8 +70,6 @@ If I was given more time, I would take the opportunity to make my project more m
 [My 5-minute Interview Recording]: 
 https://drive.google.com/file/d/1MQiWXXF7Ouzruer2vLAFxhQTg_k7tiYb/view?usp=sharing
 
-Link^^
-
 ## License
 
     Copyright [Matthew Kim]
