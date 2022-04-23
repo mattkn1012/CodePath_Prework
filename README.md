@@ -31,7 +31,7 @@ The following **optional** features are implemented:
 * [x] Buttons use a pitch (frequency) other than the ones in the tutorial
 * [x] More than 4 functional game buttons
 * [x] Playback speeds up on each turn
-* [ ] Computer picks a different pattern each time the game is played
+* [x] Computer picks a different pattern each time the game is played
 * [x] Player only loses after 3 mistakes (instead of on the first mistake)
 * [ ] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
@@ -67,13 +67,13 @@ If I was given more time, I would take the opportunity to make my project more m
 
 
 ## Interview Recording URL Link
-[My 5-minute Interview Recording](your-link-here)
-1) I would love to give opportunities to children in third world countries to break out of poverty through music. I was reading a book about musical geniuses a year ago, and it mentioned the story about Jose Antonio Abreu, who wanted to help underprivileged students achieve their full potential and acquire values for growth. It now teaches music to 300,000 of Venezuela’s poorest children while transforming their lives and the communities around them, which used to be plagued by crime and violence. Since instruments are very expensive, I would love to build software that gives people the opportunity to learn and play without having to pay for the instruments' costs.
+[My 5-minute Interview Recording]: https://drive.google.com/file/d/1MQiWXXF7Ouzruer2vLAFxhQTg_k7tiYb/view?usp=sharing
+
 
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright [Matthew Kim]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
