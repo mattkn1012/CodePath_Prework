@@ -7,7 +7,7 @@ CodePath Prework for FutureForce Pre-internship application
 
 Submitted by: **Matthew Kim**
 
-Time spent: **30** hours spent in total
+Time spent: **20** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/scented-capable-iron
 
