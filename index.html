@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Learn Piano</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      Learn a song!
+    </h1>
+    <p>
+      Welcome! Select the song you would like to learn, and choose the difficulty. The difficulty determines the speed of your game(Easy mode's speed doesn't change). You will be timed 30 seconds each round, and can make up to three mistakes. Good luck!
+      <button id="startBtn" onclick="selectSong()">
+        Start
+      </button>
+      <button id="HBDBtn" class="hidden" onclick="selectDifficulty(1)">
+        Happy Birthday
+      </button>
+      <button id="HCBBtn" class="hidden" onclick="selectDifficulty(2)">
+        Hot Cross Buns
+      </button>
+      <button id="MLLBtn" class="hidden" onclick="selectDifficulty(3)">
+        Mary had a Little Lamb
+      </button>
+      <button id="RDMBtn" class="hidden" onclick="selectDifficulty(4)">
+        Random!!!
+      </button>
+      <button id="stopBtn" class="hidden" onclick="stopGame()">
+        Stop
+      </button>
+      <button id="easyBtn" class="hidden" onclick="startGame(0)">
+        Easy
+      </button>
+      <button id="mediumBtn" class="hidden" onclick="startGame(10)">
+        Medium
+      </button>
+      <button id="hardBtn" class="hidden" onclick="startGame(15)">
+        Hard
+      </button>
+      <div class="mistakesDiv">
+        <p>
+        Mistakes:  
+        </p>
+      <p id = "mistakes">
+        0
+      </p>
+      <p id = "timercount">
+        Timer:  
+        </p>
+      <p id = "timer">
+        30
+      </p>
+    </div>
+      
+        <div id="gameButtonAreaW">
+          <button class = "gamebtn" id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()">
+            <img  id = "img1" src="https://www.wackybuttons.com/designcodes/0/110/1102093.png" alt="C" width="32" height="12">
+          </button>
+          <button class = "gamebtn" id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">          </button>
+          <button class = "gamebtn" id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">
+            <img  src="https://www.wackybuttons.com/designcodes/0/110/1102094.png" alt="D" width="32" height="12">        
+          </button>
+          <button class = "gamebtn" id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">
+          </button>
+          <button class = "gamebtn" id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()">
+            <img  src="https://www.wackybuttons.com/designcodes/0/110/1102095.png" alt="E" width="32" height="12">          
+          </button>
+          <button class = "gamebtn" id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()">
+            <img  src="https://www.wackybuttons.com/designcodes/0/110/1102096.png" alt="F" width="32" height="12">        
+          </button>
+          <button class = "gamebtn" id="button7" onclick="guess(7)" onmousedown="startTone(7)" onmouseup="stopTone()">
+          </button>
+          <button class = "gamebtn" id="button8" onclick="guess(8)" onmousedown="startTone(8)" onmouseup="stopTone()">
+            <img  src="https://www.wackybuttons.com/designcodes/0/110/1102097.png" alt="G" width="32" height="12">          
+          </button>
+          <button class = "gamebtn" id="button9" onclick="guess(9)" onmousedown="startTone(9)" onmouseup="stopTone()">
+          </button>
+          <button class = "gamebtn" id="button10" onclick="guess(10)" onmousedown="startTone(10)" onmouseup="stopTone()">
+            <img  src="https://www.wackyprint.com/previews_store/1/110/letter-a-uppercase-white-black.jpg" alt="A" width="32" height="12">          
+          </button>
+          <button class = "gamebtn" id="button11" onclick="guess(11)" onmousedown="startTone(11)" onmouseup="stopTone()">
+          </button>
+          <button class = "gamebtn" id="button12" onclick="guess(12)" onmousedown="startTone(12)" onmouseup="stopTone()">
+            <img  src="https://www.wackybuttons.com/designcodes/0/110/1102092.png" alt="B" width="32" height="12">          
+          </button>
+          <button class = "gamebtn" id="button13" onclick="guess(13)" onmousedown="startTone(13)" onmouseup="stopTone()">
+            <img src="https://www.wackybuttons.com/designcodes/0/110/1102093.png" alt="C2" width="32" height="12">        
+          </button>        
+        </div>
+
+    
+<!--       <div id="gameButtonAreaB">
+        <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+        <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+        <button id="button7" onclick="guess(7)" onmousedown="startTone(7)" onmouseup="stopTone()"></button>
+        <button id="button9" onclick="guess(9)" onmousedown="startTone(9)" onmouseup="stopTone()"></button>
+        <button id="button11" onclick="guess(11)" onmousedown="startTone(11)" onmouseup="stopTone()"></button>        
+      </div> -->
+    </p>
+  </body>
+</html>
