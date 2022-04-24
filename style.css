@@ -1,0 +1,185 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: lightblue;
+  color: black; 
+  font-family: monospace; 
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+
+}
+
+h1 {
+  color: white;
+  font-family: verdana, arial, sans-serif; 
+  -webkit-text-stroke: 1px black; /* width and color */
+  font-family: monospace; 
+  font-size: 48px;
+  margin: 20.0px;
+}
+
+button {
+  border: 2px solid black;
+  padding: 6px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-family: monospace; 
+
+}
+
+#gameButtonAreaW {
+  display:flex;
+  border: 4px solid black;
+  width: fit-content;
+  padding: 0px 10px 25px 10px;
+  background-color: rgb(255,114,111);
+  border-radius: 10px;
+  border-top: 30px solid black;
+}
+
+#gameButtonAreaW > button {
+  width:50px;
+  height:200px;
+  margin: 0px 3px 0px 3px;
+  border: 2px solid black;
+  border-top: 0px;
+}
+
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+    background: white;
+}
+
+#button2 {
+    background: lightyellow;
+}
+
+#button3 {
+    background: white;
+}
+
+#button4 {
+    background: yellow;
+}
+
+#button5 {
+    background: white;
+}
+
+#button6 {
+    background: white;
+}
+
+#button7 {
+    background: orange;
+}
+
+#button8 {
+    background: white;
+}
+
+#button9 {
+    background: pink;
+}
+
+#button10 {
+    background: white;
+}
+
+#button11 {
+    background: red;
+}
+
+#button12 {
+    background: white;
+}
+
+#button13 {
+    background: white;
+}
+
+#button1:active, #button1.lit {
+    background: grey;
+}
+
+#button2:active, #button2.lit {
+    background: grey;
+}
+
+#button3:active, #button3.lit {
+    background: grey;
+}
+
+#button4:active, #button4.lit {
+    background: grey;
+}
+#button5:active, #button5.lit {
+    background: grey;
+}
+
+#button6:active, #button6.lit {
+    background: grey;
+}
+
+#button7:active, #button7.lit {
+    background: grey;
+}
+
+#button8:active, #button8.lit {
+    background: grey;
+}
+#button9:active, #button9.lit {
+    background: grey;
+}
+
+#button10:active, #button10.lit {
+    background: grey;
+}
+
+#button11:active, #button11.lit {
+    background: grey;
+}
+
+#button12:active, #button12.lit {
+    background: grey;
+}
+
+#button13:active, #button13.lit {
+    background: grey;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+.mistakesDiv {
+  display: flex;
+}
+
+#timercount {
+  margin-left: 20px;
+}
